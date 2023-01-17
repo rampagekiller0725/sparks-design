@@ -1,4 +1,17 @@
 :root {
-  --button-bg: gray;
-  --button-font: #333;
+  --braun-red: #DB4525;
+  --braun-green: #8ECA76;
+
+  --almost-black: #151515;
+  --gray1: #3A3A3A;
+  --gray2: #989898;
+  --gray3: #C0C0C0;
+  --gray4: #EFEFEF;
+  --off-white: #F9F9F9;
+
+  --dark-stroke: #3E3E3E;
+  --gray-stroke1: #E1E1E1;
+  --gray-stroke2: #D6D6D6;
+
+  --accent-purple: #7B61FA;
 }

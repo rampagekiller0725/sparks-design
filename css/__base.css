@@ -11,6 +11,140 @@ body,
   margin: 0 auto;
 }
 
-h1 {
+/*
+==========================
+-----     Text       -----
+==========================
+*/
+h1, h2, h3, h4, h5, h6 {
   text-align: center;
+}
+
+a{
+  text-decoration: none;
+  color: var(--accent-purple);
+}
+
+
+/*
+==========================
+-----     Button     -----
+==========================
+*/
+button {
+  padding: 16px 127px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  border-radius: 8px;
+  border: 0px;
+}
+.primary-button {
+  color: var(--off-white);
+}
+.secondary-button {
+  background: var(--off-white);
+}
+.tag-button {
+  padding: 8px 16px;
+  color: var(--off-white);
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 11px;
+}
+.tertiary-button {
+  font-weight: 600;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+
+/*
+==========================
+-----     Input      -----
+==========================
+*/
+input {
+  width: 335px;
+  background-color: var(--off-white);
+  border-radius: 8px;
+
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--almost-black);
+  padding: 16px 14px;
+  line-height: 20px;
+}
+/* FormInput */
+.forminput-title {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.02em;
+  color: var(--almost-black);
+  text-transform: uppercase;
+}
+.forminput-title-error {
+  color: var(--braun-red);
+}
+.forminput-disable {
+  border: 1px solid var(--gray-stroke2);
+}
+.forminput-active {
+  border: 1px solid var(--accent-purple);
+}
+.forminput-active:focus-visible {
+  outline: none;
+  border: 1px solid var(--accent-purple);
+}
+.forminput-error {
+  border: 1px solid var(--braun-red);
+}
+.forminput-error:focus-visible {
+  outline: none;
+  border: 1px solid var(--braun-red);
+}
+.forminput-errormsg {
+  font-weight: 400;
+  font-size: 11px;
+  color: var(--braun-red);
+}
+
+/* Password */
+.password-title {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.02em;
+  color: var(--almost-black);
+  text-transform: uppercase;
+}
+.password-title-error {
+  color: var(--braun-red);
+}
+.password-disable {
+  border: 1px solid var(--gray-stroke2);
+}
+.password-active {
+  border: 1px solid var(--accent-purple);
+}
+.password-active:focus-visible {
+  outline: none;
+  border: 1px solid var(--accent-purple);
+}
+.password-error {
+  border: 1px solid var(--braun-red);
+}
+.password-error:focus-visible {
+  outline: none;
+  border: 1px solid var(--braun-red);
+}
+.password-errormsg {
+  font-weight: 400;
+  font-size: 11px;
+  color: var(--braun-red);
+}
+
+#pwd-icon {
+  margin-left: -50px;
 }
